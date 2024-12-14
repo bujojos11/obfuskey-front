@@ -1,0 +1,941 @@
+
+
+<!doctype html>
+
+
+
+
+
+
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en-us" >
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+    
+
+<meta charset="utf-8">
+
+
+
+
+
+
+
+<meta content="#0d6efd" name="msapplication-TileColor">
+
+
+    <meta content="/browserconfig.xml" name="msapplication-config">
+
+
+<meta content="https://github.com/willfaught/paige" name="theme">
+<meta content="#0d6efd" name="theme-color">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<meta property="og:title" content="4How To?" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/4howto/" />
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="4How To?"/>
+<meta name="twitter:description" content=""/>
+
+
+
+    
+        <title>4How To? · 0ObfusKey</title>
+    
+
+    
+
+
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+
+
+    <link href="/favicon.ico" rel="shortcut icon">
+
+
+
+    <link href="/favicon.png" rel="icon" type="image/png">
+
+
+
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+
+
+
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+
+
+
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+
+
+
+    <link color="#0d6efd" href="/safari-pinned-tab.svg" rel="mask-icon">
+
+
+
+    <link href="/site.webmanifest" rel="manifest">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+        
+        
+    
+
+    
+        
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap/664fb94971f87504e169d116cbe5b4bc9301bfa4-paige.min.39e7f2dd39a4aaeefd414f64e6b91ea2ff880f486fc1c73cc5990a3cf9c5ba27.css"  integrity="sha256-Oefy3Tmkqu79QU9k5rkeov&#43;ID0hvwcc8xZkKPPnFuic="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap-icons/bootstrap-icons.min.540116b7267d4b2410c74086ae6497566928c6d5715900be7ce7279ad45addcd.css"  integrity="sha256-VAEWtyZ9SyQQx0CGrmSXVmkoxtVxWQC&#43;fOcnmtRa3c0="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+    <link href="http://localhost:1313/4howto/rss.xml" rel="alternate" type="application/rss+xml">
+
+
+    
+
+<style>
+
+
+.paige-figure-numbered {
+    counter-increment: paige-figure-numbered;
+}
+
+.paige-figure-numbered > div > figure > figcaption::before {
+    content: "Figure " counter(paige-figure-numbered) ": ";
+}
+
+.paige-figure-numbered > div > figure > figcaption:empty::before {
+    content: "Figure " counter(paige-figure-numbered);
+}
+
+.paige-header-link {
+    opacity: 0;
+    margin-left: 0.5rem;
+    position: absolute;
+    transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+
+.paige-header-link::after {
+    content: "#";
+}
+
+.paige-quote .blockquote-footer {
+    margin-top: 0;
+}
+
+.paige-quote blockquote {
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+blockquote {
+    padding: 0.5rem 1rem;
+    border-left: 0.25rem solid var(--bs-border-color);
+    border-right: 0.25rem solid var(--bs-body-bg);
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
+
+.highlight .chroma .hl,
+.highlight .chroma .lnt {
+    display: flex;
+}
+
+.paige-row-narrow:not(:last-child),
+.paige-figure .paige-quote,
+.paige-figure .paige-video,
+.paige-figure .highlight pre.chroma,
+.paige-figure .highlight .chroma pre,
+.paige-figure .paige-quote blockquote,
+.paige-figure figure > div > :last-child,
+.paige-gallery .paige-figure,
+.paige-gallery .paige-image,
+blockquote > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.paige-figure,
+.paige-gallery,
+.paige-image,
+.paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
+.paige-video,
+#paige-content > *,
+table {
+    margin-bottom: 1rem;
+}
+
+.paige-header-link:focus,
+.paige-header-link:hover,
+:hover > .paige-header-link,
+:target > .paige-header-link {
+    opacity: 1;
+}
+
+
+
+
+    /* Background */ .bg { background-color: #ffffff; }
+/* PreWrapper */ .chroma { background-color: #ffffff; }
+/* Other */ .chroma .x {  }
+/* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
+/* CodeLine */ .chroma .cl {  }
+/* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+/* LineHighlight */ .chroma .hl { background-color: #ffffcc }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* Line */ .chroma .line { display: flex; }
+/* Keyword */ .chroma .k { color: #000000; font-weight: bold }
+/* KeywordConstant */ .chroma .kc { color: #000000; font-weight: bold }
+/* KeywordDeclaration */ .chroma .kd { color: #000000; font-weight: bold }
+/* KeywordNamespace */ .chroma .kn { color: #000000; font-weight: bold }
+/* KeywordPseudo */ .chroma .kp { color: #000000; font-weight: bold }
+/* KeywordReserved */ .chroma .kr { color: #000000; font-weight: bold }
+/* KeywordType */ .chroma .kt { color: #445588; font-weight: bold }
+/* Name */ .chroma .n {  }
+/* NameAttribute */ .chroma .na { color: #008080 }
+/* NameBuiltin */ .chroma .nb { color: #0086b3 }
+/* NameBuiltinPseudo */ .chroma .bp { color: #999999 }
+/* NameClass */ .chroma .nc { color: #445588; font-weight: bold }
+/* NameConstant */ .chroma .no { color: #008080 }
+/* NameDecorator */ .chroma .nd { color: #3c5d5d; font-weight: bold }
+/* NameEntity */ .chroma .ni { color: #800080 }
+/* NameException */ .chroma .ne { color: #990000; font-weight: bold }
+/* NameFunction */ .chroma .nf { color: #990000; font-weight: bold }
+/* NameFunctionMagic */ .chroma .fm {  }
+/* NameLabel */ .chroma .nl { color: #990000; font-weight: bold }
+/* NameNamespace */ .chroma .nn { color: #555555 }
+/* NameOther */ .chroma .nx {  }
+/* NameProperty */ .chroma .py {  }
+/* NameTag */ .chroma .nt { color: #000080 }
+/* NameVariable */ .chroma .nv { color: #008080 }
+/* NameVariableClass */ .chroma .vc { color: #008080 }
+/* NameVariableGlobal */ .chroma .vg { color: #008080 }
+/* NameVariableInstance */ .chroma .vi { color: #008080 }
+/* NameVariableMagic */ .chroma .vm {  }
+/* Literal */ .chroma .l {  }
+/* LiteralDate */ .chroma .ld {  }
+/* LiteralString */ .chroma .s { color: #dd1144 }
+/* LiteralStringAffix */ .chroma .sa { color: #dd1144 }
+/* LiteralStringBacktick */ .chroma .sb { color: #dd1144 }
+/* LiteralStringChar */ .chroma .sc { color: #dd1144 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #dd1144 }
+/* LiteralStringDoc */ .chroma .sd { color: #dd1144 }
+/* LiteralStringDouble */ .chroma .s2 { color: #dd1144 }
+/* LiteralStringEscape */ .chroma .se { color: #dd1144 }
+/* LiteralStringHeredoc */ .chroma .sh { color: #dd1144 }
+/* LiteralStringInterpol */ .chroma .si { color: #dd1144 }
+/* LiteralStringOther */ .chroma .sx { color: #dd1144 }
+/* LiteralStringRegex */ .chroma .sr { color: #009926 }
+/* LiteralStringSingle */ .chroma .s1 { color: #dd1144 }
+/* LiteralStringSymbol */ .chroma .ss { color: #990073 }
+/* LiteralNumber */ .chroma .m { color: #009999 }
+/* LiteralNumberBin */ .chroma .mb { color: #009999 }
+/* LiteralNumberFloat */ .chroma .mf { color: #009999 }
+/* LiteralNumberHex */ .chroma .mh { color: #009999 }
+/* LiteralNumberInteger */ .chroma .mi { color: #009999 }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #009999 }
+/* LiteralNumberOct */ .chroma .mo { color: #009999 }
+/* Operator */ .chroma .o { color: #000000; font-weight: bold }
+/* OperatorWord */ .chroma .ow { color: #000000; font-weight: bold }
+/* Punctuation */ .chroma .p {  }
+/* Comment */ .chroma .c { color: #999988; font-style: italic }
+/* CommentHashbang */ .chroma .ch { color: #999988; font-style: italic }
+/* CommentMultiline */ .chroma .cm { color: #999988; font-style: italic }
+/* CommentSingle */ .chroma .c1 { color: #999988; font-style: italic }
+/* CommentSpecial */ .chroma .cs { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreproc */ .chroma .cp { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreprocFile */ .chroma .cpf { color: #999999; font-weight: bold; font-style: italic }
+/* Generic */ .chroma .g {  }
+/* GenericDeleted */ .chroma .gd { color: #000000; background-color: #ffdddd }
+/* GenericEmph */ .chroma .ge { color: #000000; font-style: italic }
+/* GenericError */ .chroma .gr { color: #aa0000 }
+/* GenericHeading */ .chroma .gh { color: #999999 }
+/* GenericInserted */ .chroma .gi { color: #000000; background-color: #ddffdd }
+/* GenericOutput */ .chroma .go { color: #888888 }
+/* GenericPrompt */ .chroma .gp { color: #555555 }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #aaaaaa }
+/* GenericTraceback */ .chroma .gt { color: #aa0000 }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+
+
+@media (prefers-reduced-motion: reduce) {
+    .paige-header-link {
+        transition: none;
+    }
+}
+
+
+
+
+</style>
+
+
+    
+</head>
+
+    <body>
+
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3" id="paige-site">
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <header id="paige-site-header">
+        
+
+        
+
+        
+
+        
+            
+                
+
+                
+                    
+                
+                    
+                
+
+                
+
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+			    
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/1what/" >What?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/2why/" >Why?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/3how/" >How?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  aria-current="page"  class=" active  fw-bold text-body-emphasis   nav-link  text-decoration-underline " href="/4howto/" >How To?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/5download/" >Download</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/6support/" >Support</a>
+                            </li>
+                           
+			
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+
+        
+    </header>
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+        
+    
+
+
+
+
+<article class="paige-kind-section paige-published" id="paige-page">
+    <div class="align-items-center d-flex flex-column">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header class="mw-100" id="paige-page-header">
+        <div class="align-items-center d-flex flex-column">
+            
+
+            
+                <h1 class="fw-bold" id="paige-page-title">How To?</h1>
+            
+
+            
+
+            
+
+            
+
+            
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-to-use-it">How to use it?</a></li>
+    <li><a href="#how-to-run-it">How to run it?</a>
+      <ul>
+        <li><a href="#least-safe-method-download-the-executable">Least safe method: download the executable</a></li>
+        <li><a href="#safer-method-run-in-python">Safer method: run in python</a></li>
+        <li><a href="#safest-method-make-your-own-executable-for-tailsqubes-os">Safest method: make your own executable for Tails/Qubes Os</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                    </div>
+                </div>
+            
+
+            
+        </div>
+    </header>
+
+
+
+        
+            <main class="mw-100" id="paige-content"><h2 id="how-to-use-it">How to use it?<a aria-label="Link to this section" class="paige-header-link" href="#how-to-use-it"></a></h2>
+<p>When running ObfusKey you will always have extensive help menus and descriptions of what is going on and what to do but here is a quick summary of what will happen after you downloaded it and installed it.</p>
+<ol>
+<li>Automated tests
+In order to make sure you are not using a corrupted version of obfuskey, there are end-to-end tests running at every launch of the software. This test will run a basic obfuscation-desobfuscation cycle of a known seedphrase and its results and compare them. If anything goes wrong, the software will crash and you won&rsquo;t be able to continue</li>
+<li>Menus
+If you can see the menu, this means the tests ran normally. In order to interact with the interface, you have to enter the character of the options you want to use in the menu and press enter.</li>
+<li>You should only use the latest version of Obfuskey since the first iteration is obsolete. This 1.0 version was only released for a short while and most probably nobody ever used it but I decided to always keep all versions (if I ever make newer ones) directly in the software so it is always possible to recover obfuscated seedphrases.</li>
+<li>Mnemonic selection
+You will first have to select which mnemonic your seedphrase is using. The default mnemonic coming with Obfuskey is the english BIP-39 mnemonic. If you wish to use a different one, you can manually add it to the &ldquo;Mnemonics&rdquo; directory. Obfuskey will always check your seedphrase is found in the mnemonic and won&rsquo;t let you run something impossible.</li>
+<li>Seedphrase
+You will then be prompted to enter the words of your seedphrase, in the correct order, one by one. There are no limitation on the length of the seedphrase. When you are done, just press enter without adding any word. You will then be asked to double check you entered the correct seedphrase.</li>
+<li>Passwords
+After that you will be asked to enter as many passwords as you desire. Every password adds another layer of obfuscation. You should read the documentation regarding passwords.</li>
+<li>Obfuscation or Desobfuscation
+You can then choose do you want to perform an obfuscation of your seedphrase or a desobfuscation. If you have entered your original seedphrase, perform an obfuscation. An automated desobfuscation test will be run to verify you can actually retrieve your seedphrase using the passwords provided. This is only to for peace of mind. If you want to run a desobfuscation of your newly obfuscated seedphrase, you will have to return to the seedphrase menu to enter the obfuscated seedphrase and then run the desobfuscation.</li>
+<li>File saving
+The outcome of your obfuscation will then be saved into a text file located in &lt;FIX ME&gt;. You have to open this file with a text editor and replace characters of your passwords with stars in order to make it safe. You also should write some hints regarding each password so your future self can remember the passwords easily. Make sure to be as cryptic as possible but still clear enough to yourself.</li>
+</ol>
+<p>When exiting obfuskey, this is it. There is no storage of any of the data processed, not the passwords nor the seedphrase. It is recommended to then manually run a desobfuscation and see if you feel comfortable with destroying your seedphrase paper.</p>
+<p>I recommend sending this obfuscation text-file to your email address, store it on your hard drive, write it down on several different medias, since it is now safe to store.</p>
+<h2 id="how-to-run-it">How to run it?<a aria-label="Link to this section" class="paige-header-link" href="#how-to-run-it"></a></h2>
+<p>In this section you will find different methods of executing ObfusKey and how to use it.</p>
+<p>Bit of a foreword:
+Before entering your seedphrase for obfuscation, you should definitely run several try outs with random seedphrases to see if this is the solution you need. You can run it in a virtual machine and even disconnect your internet connection, Obfuskey is fully local and doesn&rsquo;t call or run any outside code, doesn&rsquo;t require any other software. In fact, the safest way of using it would be on Tails Os.</p>
+<p>First, you need to choose how do you want to be able to execute the software. Do you want to keep it simple and just have an executable file to run ? Do you want to run it with Python ? Or do you want to make your own executable so you can be sure of what you are compiling ?</p>
+<h3 id="least-safe-method-download-the-executable">Least safe method: download the executable<a aria-label="Link to this section" class="paige-header-link" href="#least-safe-method-download-the-executable"></a></h3>
+<p>Because the main goal of ObfusKey is to be easy to run by anybody with a computer, there is a possibility of downloading an executable for your operating system and just running it. However, because you should never run a software you don&rsquo;t trust and obviously I am not Microsoft or Apple or any big tech company, you shouldn&rsquo;t run this without taking some level of precautions.</p>
+<ol>
+<li>
+<p>Download the file directly from the github repository<br>
+By doing this, you can be sure you are downloading the latest official version and you can already heavily reduce the risks involved. Make sure to check if there was any recent commit to the project and if so, take a moment to check what was in the commit(s).</p>
+</li>
+<li>
+<p>Compare the hash of the file<br>
+This is not a perfect method but it adds a level of certainty in that you can be sure you are running the official version.
+To get the hash of any file in Linux or Windows, just open a terminal (Windows, search: &ldquo;cmd&rdquo; | Linux, search for &ldquo;Terminal&rdquo;), use the command &ldquo;cd &lt;name of directory&gt;&rdquo; to change directory (using Tab will display possible directories) and get to the location of the file, then using :</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>Windows:<br>
+
+
+
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>certutil -hashfile &lt;name-of-file-with-extension&gt; -sha256</span></span></code></pre></div></div>
+</p>
+</li>
+<li>
+<p>Linux:<br>
+
+
+
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>sha256sum &lt;name-of-file-with-extension&gt;</span></span></code></pre></div></div>
+</p>
+</li>
+</ul>
+<p>you will get the sha256 hash of the file that you can compare with the one mentioned in the README (also visible in the github page). If this hash doesn&rsquo;t match, you should delete this file and definitely not try to run it.</p>
+<h3 id="safer-method-run-in-python">Safer method: run in python<a aria-label="Link to this section" class="paige-header-link" href="#safer-method-run-in-python"></a></h3>
+<p>Once you have read the source code, after cloning the git repo, simply executing &ldquo;python main.py&rdquo; will let you run the software.<br>
+Please, do note that only Python3, version 3.11 or above, will run the project.</p>
+<h3 id="safest-method-make-your-own-executable-for-tailsqubes-os">Safest method: make your own executable for Tails/Qubes Os<a aria-label="Link to this section" class="paige-header-link" href="#safest-method-make-your-own-executable-for-tailsqubes-os"></a></h3>
+<p>Because we are talking about securing your cryptocurrency wallets, ObfusKey was designed to run on safe OS. To reduce all risks of someone spying on you while using it, it is strongly recommended to run it in Tails Os. The safest way would be that you would yourself compile your own executable file and then run it in Tails Os but if you want you can also use the compiled versions for Linux on the repo. Always remember to check the sha256 hash of the file for safety.</p>
+<div style="text-align: center;">
+Follow this link for <a href="../5download">all available download method</a>
+</div>
+
+</main>
+        
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <footer id="paige-site-footer">
+        
+
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit"><!-- raw HTML omitted -->Paige Theme<!-- raw HTML omitted --></p>
+        
+
+        
+    </footer>
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-n1ZUm8O8DZ536jlYheCXcPnnlnnkY5qH7DR6HU&#43;gQ2s="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.9f56549bc3bc0d9e77ea395885e09770f9e79679e4639a87ec347a1d4fa0436b.js" ></script>
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+<noscript>JavaScript is required</noscript>
+
+
+        
+    </body>
+</html>

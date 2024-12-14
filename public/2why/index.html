@@ -1,0 +1,919 @@
+
+
+<!doctype html>
+
+
+
+
+
+
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en-us" >
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+    
+
+<meta charset="utf-8">
+
+
+
+
+
+
+
+<meta content="#0d6efd" name="msapplication-TileColor">
+
+
+    <meta content="/browserconfig.xml" name="msapplication-config">
+
+
+<meta content="https://github.com/willfaught/paige" name="theme">
+<meta content="#0d6efd" name="theme-color">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<meta property="og:title" content="2Why?" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/2why/" />
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="2Why?"/>
+<meta name="twitter:description" content=""/>
+
+
+
+    
+        <title>2Why? · 0ObfusKey</title>
+    
+
+    
+
+
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+
+
+    <link href="/favicon.ico" rel="shortcut icon">
+
+
+
+    <link href="/favicon.png" rel="icon" type="image/png">
+
+
+
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+
+
+
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+
+
+
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+
+
+
+    <link color="#0d6efd" href="/safari-pinned-tab.svg" rel="mask-icon">
+
+
+
+    <link href="/site.webmanifest" rel="manifest">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+        
+        
+    
+
+    
+        
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap/664fb94971f87504e169d116cbe5b4bc9301bfa4-paige.min.39e7f2dd39a4aaeefd414f64e6b91ea2ff880f486fc1c73cc5990a3cf9c5ba27.css"  integrity="sha256-Oefy3Tmkqu79QU9k5rkeov&#43;ID0hvwcc8xZkKPPnFuic="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap-icons/bootstrap-icons.min.540116b7267d4b2410c74086ae6497566928c6d5715900be7ce7279ad45addcd.css"  integrity="sha256-VAEWtyZ9SyQQx0CGrmSXVmkoxtVxWQC&#43;fOcnmtRa3c0="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+    <link href="http://localhost:1313/2why/rss.xml" rel="alternate" type="application/rss+xml">
+
+
+    
+
+<style>
+
+
+.paige-figure-numbered {
+    counter-increment: paige-figure-numbered;
+}
+
+.paige-figure-numbered > div > figure > figcaption::before {
+    content: "Figure " counter(paige-figure-numbered) ": ";
+}
+
+.paige-figure-numbered > div > figure > figcaption:empty::before {
+    content: "Figure " counter(paige-figure-numbered);
+}
+
+.paige-header-link {
+    opacity: 0;
+    margin-left: 0.5rem;
+    position: absolute;
+    transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+
+.paige-header-link::after {
+    content: "#";
+}
+
+.paige-quote .blockquote-footer {
+    margin-top: 0;
+}
+
+.paige-quote blockquote {
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+blockquote {
+    padding: 0.5rem 1rem;
+    border-left: 0.25rem solid var(--bs-border-color);
+    border-right: 0.25rem solid var(--bs-body-bg);
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
+
+.highlight .chroma .hl,
+.highlight .chroma .lnt {
+    display: flex;
+}
+
+.paige-row-narrow:not(:last-child),
+.paige-figure .paige-quote,
+.paige-figure .paige-video,
+.paige-figure .highlight pre.chroma,
+.paige-figure .highlight .chroma pre,
+.paige-figure .paige-quote blockquote,
+.paige-figure figure > div > :last-child,
+.paige-gallery .paige-figure,
+.paige-gallery .paige-image,
+blockquote > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.paige-figure,
+.paige-gallery,
+.paige-image,
+.paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
+.paige-video,
+#paige-content > *,
+table {
+    margin-bottom: 1rem;
+}
+
+.paige-header-link:focus,
+.paige-header-link:hover,
+:hover > .paige-header-link,
+:target > .paige-header-link {
+    opacity: 1;
+}
+
+
+
+
+    /* Background */ .bg { background-color: #ffffff; }
+/* PreWrapper */ .chroma { background-color: #ffffff; }
+/* Other */ .chroma .x {  }
+/* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
+/* CodeLine */ .chroma .cl {  }
+/* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+/* LineHighlight */ .chroma .hl { background-color: #ffffcc }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* Line */ .chroma .line { display: flex; }
+/* Keyword */ .chroma .k { color: #000000; font-weight: bold }
+/* KeywordConstant */ .chroma .kc { color: #000000; font-weight: bold }
+/* KeywordDeclaration */ .chroma .kd { color: #000000; font-weight: bold }
+/* KeywordNamespace */ .chroma .kn { color: #000000; font-weight: bold }
+/* KeywordPseudo */ .chroma .kp { color: #000000; font-weight: bold }
+/* KeywordReserved */ .chroma .kr { color: #000000; font-weight: bold }
+/* KeywordType */ .chroma .kt { color: #445588; font-weight: bold }
+/* Name */ .chroma .n {  }
+/* NameAttribute */ .chroma .na { color: #008080 }
+/* NameBuiltin */ .chroma .nb { color: #0086b3 }
+/* NameBuiltinPseudo */ .chroma .bp { color: #999999 }
+/* NameClass */ .chroma .nc { color: #445588; font-weight: bold }
+/* NameConstant */ .chroma .no { color: #008080 }
+/* NameDecorator */ .chroma .nd { color: #3c5d5d; font-weight: bold }
+/* NameEntity */ .chroma .ni { color: #800080 }
+/* NameException */ .chroma .ne { color: #990000; font-weight: bold }
+/* NameFunction */ .chroma .nf { color: #990000; font-weight: bold }
+/* NameFunctionMagic */ .chroma .fm {  }
+/* NameLabel */ .chroma .nl { color: #990000; font-weight: bold }
+/* NameNamespace */ .chroma .nn { color: #555555 }
+/* NameOther */ .chroma .nx {  }
+/* NameProperty */ .chroma .py {  }
+/* NameTag */ .chroma .nt { color: #000080 }
+/* NameVariable */ .chroma .nv { color: #008080 }
+/* NameVariableClass */ .chroma .vc { color: #008080 }
+/* NameVariableGlobal */ .chroma .vg { color: #008080 }
+/* NameVariableInstance */ .chroma .vi { color: #008080 }
+/* NameVariableMagic */ .chroma .vm {  }
+/* Literal */ .chroma .l {  }
+/* LiteralDate */ .chroma .ld {  }
+/* LiteralString */ .chroma .s { color: #dd1144 }
+/* LiteralStringAffix */ .chroma .sa { color: #dd1144 }
+/* LiteralStringBacktick */ .chroma .sb { color: #dd1144 }
+/* LiteralStringChar */ .chroma .sc { color: #dd1144 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #dd1144 }
+/* LiteralStringDoc */ .chroma .sd { color: #dd1144 }
+/* LiteralStringDouble */ .chroma .s2 { color: #dd1144 }
+/* LiteralStringEscape */ .chroma .se { color: #dd1144 }
+/* LiteralStringHeredoc */ .chroma .sh { color: #dd1144 }
+/* LiteralStringInterpol */ .chroma .si { color: #dd1144 }
+/* LiteralStringOther */ .chroma .sx { color: #dd1144 }
+/* LiteralStringRegex */ .chroma .sr { color: #009926 }
+/* LiteralStringSingle */ .chroma .s1 { color: #dd1144 }
+/* LiteralStringSymbol */ .chroma .ss { color: #990073 }
+/* LiteralNumber */ .chroma .m { color: #009999 }
+/* LiteralNumberBin */ .chroma .mb { color: #009999 }
+/* LiteralNumberFloat */ .chroma .mf { color: #009999 }
+/* LiteralNumberHex */ .chroma .mh { color: #009999 }
+/* LiteralNumberInteger */ .chroma .mi { color: #009999 }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #009999 }
+/* LiteralNumberOct */ .chroma .mo { color: #009999 }
+/* Operator */ .chroma .o { color: #000000; font-weight: bold }
+/* OperatorWord */ .chroma .ow { color: #000000; font-weight: bold }
+/* Punctuation */ .chroma .p {  }
+/* Comment */ .chroma .c { color: #999988; font-style: italic }
+/* CommentHashbang */ .chroma .ch { color: #999988; font-style: italic }
+/* CommentMultiline */ .chroma .cm { color: #999988; font-style: italic }
+/* CommentSingle */ .chroma .c1 { color: #999988; font-style: italic }
+/* CommentSpecial */ .chroma .cs { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreproc */ .chroma .cp { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreprocFile */ .chroma .cpf { color: #999999; font-weight: bold; font-style: italic }
+/* Generic */ .chroma .g {  }
+/* GenericDeleted */ .chroma .gd { color: #000000; background-color: #ffdddd }
+/* GenericEmph */ .chroma .ge { color: #000000; font-style: italic }
+/* GenericError */ .chroma .gr { color: #aa0000 }
+/* GenericHeading */ .chroma .gh { color: #999999 }
+/* GenericInserted */ .chroma .gi { color: #000000; background-color: #ddffdd }
+/* GenericOutput */ .chroma .go { color: #888888 }
+/* GenericPrompt */ .chroma .gp { color: #555555 }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #aaaaaa }
+/* GenericTraceback */ .chroma .gt { color: #aa0000 }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+
+
+@media (prefers-reduced-motion: reduce) {
+    .paige-header-link {
+        transition: none;
+    }
+}
+
+
+
+
+</style>
+
+
+    
+</head>
+
+    <body>
+
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3" id="paige-site">
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <header id="paige-site-header">
+        
+
+        
+
+        
+
+        
+            
+                
+
+                
+                    
+                
+                    
+                
+
+                
+
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+			    
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/1what/" >What?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  aria-current="page"  class=" active  fw-bold text-body-emphasis   nav-link  text-decoration-underline " href="/2why/" >Why?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/3how/" >How?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/4howto/" >How To?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/5download/" >Download</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/6support/" >Support</a>
+                            </li>
+                           
+			
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+
+        
+    </header>
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+        
+    
+
+
+
+
+<article class="paige-kind-section paige-published" id="paige-page">
+    <div class="align-items-center d-flex flex-column">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header class="mw-100" id="paige-page-header">
+        <div class="align-items-center d-flex flex-column">
+            
+
+            
+                <h1 class="fw-bold" id="paige-page-title">Why?</h1>
+            
+
+            
+
+            
+
+            
+
+            
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why">Why?</a></li>
+    <li><a href="#why-making-obfuskey">Why making ObfusKey?</a>
+      <ul>
+        <li><a href="#1-accessibility">1. Accessibility</a></li>
+        <li><a href="#2-digitality">2. Digitality</a></li>
+        <li><a href="#3-storage">3. Storage</a></li>
+        <li><a href="#4-security">4. Security</a></li>
+      </ul>
+    </li>
+    <li><a href="#why-obfuscation-over-encryption">Why obfuscation over encryption?</a></li>
+    <li><a href="#why-open-source-it">Why open-source it?</a></li>
+  </ul>
+</nav>
+                    </div>
+                </div>
+            
+
+            
+        </div>
+    </header>
+
+
+
+        
+            <main class="mw-100" id="paige-content"><h2 id="why">Why?<a aria-label="Link to this section" class="paige-header-link" href="#why"></a></h2>
+<p>The point behind all this is to free yourself from the cold and impersonal yet very powerful set of random words that was given to you, exchanging it for something very personal yet inert and harmless that only you will be able to recover so you don&rsquo;t have to worry about storing it anymore.</p>
+<h2 id="why-making-obfuskey">Why making ObfusKey?<a aria-label="Link to this section" class="paige-header-link" href="#why-making-obfuskey"></a></h2>
+<p>As soon as I started to use cryptocurrencies and therefore wallets, I got worried about seedphrase storage. At first I just wrote them down on a piece of paper and hid the paper away. I was using verious wallets like Metamask, Daedellus, Polkawallet, Electrum wallet, and not only the amount of papers I had to store started to become not only a logistical problem (where to put them, all in one place ? separated ? but then still need to know where they are and keep an eye on them etc..) but also a basic security problem that if anyone would find said papers, they would get access to my funds.</p>
+<p>It felt paradoxical that the only way to safely store it is on a piece of paper which can be:</p>
+<ul>
+<li>found by anybody else than you, meaning loss of control over your wallet</li>
+<li>damaged/destroyed by environmental events (would it be fire, water, earthquake &hellip;?)
+You can of course try to mitigate the second point by using a different media than paper, some might even use metal, but it doesn&rsquo;t help with the first point: if anyone else than you finds your media, they get your keys, your cryptos.</li>
+</ul>
+<p>While this is a major issue with lightweight wallets, of course, in the case of an HD-wallet you could/should protect it with a passphrase BUT this doesn&rsquo;t solve the storage of the seedphrase. You shouldn&rsquo;t keep it public just because you used a passphrase since this passphrase can be brute-force and will be a single point of failure.</p>
+<p>You can of course opt for a digital storage, which is a terrible idea for the following reasons:</p>
+<h3 id="1-accessibility">1. Accessibility<a aria-label="Link to this section" class="paige-header-link" href="#1-accessibility"></a></h3>
+<p>If it is digital, it can be remotely:</p>
+<ul>
+<li>opened without leaving a trace</li>
+<li>copied without leaving a trace</li>
+<li>modified</li>
+<li>deleted</li>
+</ul>
+<p>You can mitigate the first 3 by password protecting it but it won&rsquo;t help you if it is deleted. Also, if it is locally password-protected, it can be brute-forced. If it is remotely password protected (using 2FA and such) you can always get hacked/sim-swapped etc.</p>
+<h3 id="2-digitality">2. Digitality<a aria-label="Link to this section" class="paige-header-link" href="#2-digitality"></a></h3>
+<p>Because it is under the digital form, if anything happens you can&rsquo;t have a physical copy of it. You can&rsquo;t print a password-protected zip. I mean, you could print out every byte of the file but typing it back will be quite something. And if you print it out as plain text you are back to square one with a piece of paper that anyone can find and can be destroyed.</p>
+<h3 id="3-storage">3. Storage<a aria-label="Link to this section" class="paige-header-link" href="#3-storage"></a></h3>
+<p>If you rely on a text file inside of a zip file stored on a cloud service, you have to trust the cloud service to be there for ever and never lose your file. This should be seen as a third-party trust-based storage.</p>
+<h3 id="4-security">4. Security<a aria-label="Link to this section" class="paige-header-link" href="#4-security"></a></h3>
+<p>Trying to break a password encryption is only a matter of computing power and can be performed fully offline. If the password is not found in usual password-listings, the attacker would have to run all possible character combinations. While it is not fast, the attacker will know they have broken the encryption because the text will be readable/the hash will match.</p>
+<p>The main take-out is that to be perfectly safe you would need to have it both on a physical media AND under a digital form BUT without having to rely on any third party for the storage and protection of the file WHILE keeping the physical copy not readable.</p>
+<p>The obvious solution to this problem is obfuscation for the following reasons:</p>
+<ul>
+<li>once obfuscated, it is useless unless you have the way to desobfuscate it so you can keep it digitally</li>
+<li>because it is an obfuscation within the mnemonic, it is still under the form of a seedphrase so it is easy to type, easy to print out so you can keep it physically</li>
+<li>but because it is under the form of a mnemonic phrase, it also means you can&rsquo;t just brute-force it back because you won&rsquo;t know if you successfuly broke it. This will get clearer the further we go.</li>
+<li>if you use a passphrase-protected seedphrase, obfuscating your seedphrase makes it theoretically impossible to break without the password(s)</li>
+</ul>
+<p>My first step was to switch position of a couple of words as a first-level of security, meaning anyone finding the paper could just end-up with an empty wallet and move on. But anybody really wanting to find my wallet for sure could simply jumble the words and see all the possible wallets and therefor gain access to my wallet.</p>
+<p>Right away I knew there had to be a better way and decided to start working on a reversible procedural way of obfuscating my seedphrases rendering them completely unusable without the proper input.</p>
+<h2 id="why-obfuscation-over-encryption">Why obfuscation over encryption?<a aria-label="Link to this section" class="paige-header-link" href="#why-obfuscation-over-encryption"></a></h2>
+<p>When trying to make something secure, the usual way is to use encryption. Encryption is obviously safe, secure etc but I see two major drawbacks that are practically undeniable:</p>
+<ul>
+<li>encrypting a piece of text turns the original human readable text into another data form not easily human-readable, therefor not practical to write down and if needed, manually type back into a software</li>
+<li>an attacker knows when he broke the encryption by matching the hash or by turning the unreadable data into plain text.</li>
+</ul>
+<p>These two reasons are why, in this case, obfuscation is far superior:</p>
+<ul>
+<li>When obfuscating plain text, the output is still plain text so you can easily manipulate this output to write it down on a piece of paper if that is what you choose to do. It does not force you into having your output under a digital form because you will have to copy/paste it in order to make use of it. Plain text data storage is far superior to  hashed data storage.</li>
+<li>When attempting to desobfucate, any input will give a seemingly correct output meaning you can&rsquo;t just compare two hashes, you actually have to perform a check on the data. In the case of seedphrases, you have to attempt to open a wallet and check the balance. Only then you can be sure if you do have the correct result.</li>
+</ul>
+<h2 id="why-open-source-it">Why open-source it?<a aria-label="Link to this section" class="paige-header-link" href="#why-open-source-it"></a></h2>
+<p>Because what is on the internet is most likely going to be there forever, the only way of making sure ObfusKey will always be available, would it be as an executable, as the source code of at least as the documentation, is to make it open-source and have people using it, playing with it, even integrating it in other projects if it is possible. This way, by distributing it, I know I will always be able to run it somehow. Of course, there are several github repositories and this website - which has a long lease on the domain name by the way - that are going to be around for a long time. On top of that, I can only encourage you to keep a version of the executable with any digitally stored obfuscated seedphrase you might have.</p>
+<div style="text-align: center;">
+Now, let&rsquo;s see <a href="../3how">how it works</a>.
+</div>
+
+</main>
+        
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <footer id="paige-site-footer">
+        
+
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit"><!-- raw HTML omitted -->Paige Theme<!-- raw HTML omitted --></p>
+        
+
+        
+    </footer>
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-n1ZUm8O8DZ536jlYheCXcPnnlnnkY5qH7DR6HU&#43;gQ2s="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.9f56549bc3bc0d9e77ea395885e09770f9e79679e4639a87ec347a1d4fa0436b.js" ></script>
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+<noscript>JavaScript is required</noscript>
+
+
+        
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{{ $page := .Page}}
+{{ $title := $page.Param "paige.title" | default site.Title | markdownify | and ($page.Param "paige.site.disable_title" | not) }}
+{{ $ordered := slice site.Home | append site.Sections }}
+{{ $ordered := sort $ordered "Title"}}
+{{ range $ordered }}
+<li class="nav-item">
+<a aria-current="page"  href="{{ .RelPermalink | safeURL }}" {{ with partial "paige/target.html" (dict "page" $page "url" .RelPermalink) }} target="{{ . }}" {{ end }}>{{substr .Title 1}}</a></li>
+{{ end }}

@@ -1,0 +1,930 @@
+
+
+<!doctype html>
+
+
+
+
+
+
+<html  data-paige="Paige theme from https://github.com/willfaught/paige"   lang="en-us" >
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+    
+
+<meta charset="utf-8">
+
+
+
+
+
+
+
+<meta content="#0d6efd" name="msapplication-TileColor">
+
+
+    <meta content="/browserconfig.xml" name="msapplication-config">
+
+
+<meta content="https://github.com/willfaught/paige" name="theme">
+<meta content="#0d6efd" name="theme-color">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<meta property="og:title" content="3How?" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/3how/" />
+
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="3How?"/>
+<meta name="twitter:description" content=""/>
+
+
+
+    
+        <title>3How? · 0ObfusKey</title>
+    
+
+    
+
+
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+
+
+    <link href="/favicon.ico" rel="shortcut icon">
+
+
+
+    <link href="/favicon.png" rel="icon" type="image/png">
+
+
+
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+
+
+
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+
+
+
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+
+
+
+    <link color="#0d6efd" href="/safari-pinned-tab.svg" rel="mask-icon">
+
+
+
+    <link href="/site.webmanifest" rel="manifest">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+        
+        
+    
+
+    
+        
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap/664fb94971f87504e169d116cbe5b4bc9301bfa4-paige.min.39e7f2dd39a4aaeefd414f64e6b91ea2ff880f486fc1c73cc5990a3cf9c5ba27.css"  integrity="sha256-Oefy3Tmkqu79QU9k5rkeov&#43;ID0hvwcc8xZkKPPnFuic="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap-icons/bootstrap-icons.min.540116b7267d4b2410c74086ae6497566928c6d5715900be7ce7279ad45addcd.css"  integrity="sha256-VAEWtyZ9SyQQx0CGrmSXVmkoxtVxWQC&#43;fOcnmtRa3c0="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+    <link href="http://localhost:1313/3how/rss.xml" rel="alternate" type="application/rss+xml">
+
+
+    
+
+<style>
+
+
+.paige-figure-numbered {
+    counter-increment: paige-figure-numbered;
+}
+
+.paige-figure-numbered > div > figure > figcaption::before {
+    content: "Figure " counter(paige-figure-numbered) ": ";
+}
+
+.paige-figure-numbered > div > figure > figcaption:empty::before {
+    content: "Figure " counter(paige-figure-numbered);
+}
+
+.paige-header-link {
+    opacity: 0;
+    margin-left: 0.5rem;
+    position: absolute;
+    transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+
+.paige-header-link::after {
+    content: "#";
+}
+
+.paige-quote .blockquote-footer {
+    margin-top: 0;
+}
+
+.paige-quote blockquote {
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+blockquote {
+    padding: 0.5rem 1rem;
+    border-left: 0.25rem solid var(--bs-border-color);
+    border-right: 0.25rem solid var(--bs-body-bg);
+}
+
+td,
+th {
+    padding: 0.25rem;
+}
+
+.highlight .chroma .hl,
+.highlight .chroma .lnt {
+    display: flex;
+}
+
+.paige-row-narrow:not(:last-child),
+.paige-figure .paige-quote,
+.paige-figure .paige-video,
+.paige-figure .highlight pre.chroma,
+.paige-figure .highlight .chroma pre,
+.paige-figure .paige-quote blockquote,
+.paige-figure figure > div > :last-child,
+.paige-gallery .paige-figure,
+.paige-gallery .paige-image,
+blockquote > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.paige-figure,
+.paige-gallery,
+.paige-image,
+.paige-quote,
+.paige-row-narrow:last-child,
+.paige-row-wide,
+.paige-video,
+#paige-content > *,
+table {
+    margin-bottom: 1rem;
+}
+
+.paige-header-link:focus,
+.paige-header-link:hover,
+:hover > .paige-header-link,
+:target > .paige-header-link {
+    opacity: 1;
+}
+
+
+
+
+    /* Background */ .bg { background-color: #ffffff; }
+/* PreWrapper */ .chroma { background-color: #ffffff; }
+/* Other */ .chroma .x {  }
+/* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
+/* CodeLine */ .chroma .cl {  }
+/* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+/* LineHighlight */ .chroma .hl { background-color: #ffffcc }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* LineNumbers */ .chroma .ln { white-space: pre; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
+/* Line */ .chroma .line { display: flex; }
+/* Keyword */ .chroma .k { color: #000000; font-weight: bold }
+/* KeywordConstant */ .chroma .kc { color: #000000; font-weight: bold }
+/* KeywordDeclaration */ .chroma .kd { color: #000000; font-weight: bold }
+/* KeywordNamespace */ .chroma .kn { color: #000000; font-weight: bold }
+/* KeywordPseudo */ .chroma .kp { color: #000000; font-weight: bold }
+/* KeywordReserved */ .chroma .kr { color: #000000; font-weight: bold }
+/* KeywordType */ .chroma .kt { color: #445588; font-weight: bold }
+/* Name */ .chroma .n {  }
+/* NameAttribute */ .chroma .na { color: #008080 }
+/* NameBuiltin */ .chroma .nb { color: #0086b3 }
+/* NameBuiltinPseudo */ .chroma .bp { color: #999999 }
+/* NameClass */ .chroma .nc { color: #445588; font-weight: bold }
+/* NameConstant */ .chroma .no { color: #008080 }
+/* NameDecorator */ .chroma .nd { color: #3c5d5d; font-weight: bold }
+/* NameEntity */ .chroma .ni { color: #800080 }
+/* NameException */ .chroma .ne { color: #990000; font-weight: bold }
+/* NameFunction */ .chroma .nf { color: #990000; font-weight: bold }
+/* NameFunctionMagic */ .chroma .fm {  }
+/* NameLabel */ .chroma .nl { color: #990000; font-weight: bold }
+/* NameNamespace */ .chroma .nn { color: #555555 }
+/* NameOther */ .chroma .nx {  }
+/* NameProperty */ .chroma .py {  }
+/* NameTag */ .chroma .nt { color: #000080 }
+/* NameVariable */ .chroma .nv { color: #008080 }
+/* NameVariableClass */ .chroma .vc { color: #008080 }
+/* NameVariableGlobal */ .chroma .vg { color: #008080 }
+/* NameVariableInstance */ .chroma .vi { color: #008080 }
+/* NameVariableMagic */ .chroma .vm {  }
+/* Literal */ .chroma .l {  }
+/* LiteralDate */ .chroma .ld {  }
+/* LiteralString */ .chroma .s { color: #dd1144 }
+/* LiteralStringAffix */ .chroma .sa { color: #dd1144 }
+/* LiteralStringBacktick */ .chroma .sb { color: #dd1144 }
+/* LiteralStringChar */ .chroma .sc { color: #dd1144 }
+/* LiteralStringDelimiter */ .chroma .dl { color: #dd1144 }
+/* LiteralStringDoc */ .chroma .sd { color: #dd1144 }
+/* LiteralStringDouble */ .chroma .s2 { color: #dd1144 }
+/* LiteralStringEscape */ .chroma .se { color: #dd1144 }
+/* LiteralStringHeredoc */ .chroma .sh { color: #dd1144 }
+/* LiteralStringInterpol */ .chroma .si { color: #dd1144 }
+/* LiteralStringOther */ .chroma .sx { color: #dd1144 }
+/* LiteralStringRegex */ .chroma .sr { color: #009926 }
+/* LiteralStringSingle */ .chroma .s1 { color: #dd1144 }
+/* LiteralStringSymbol */ .chroma .ss { color: #990073 }
+/* LiteralNumber */ .chroma .m { color: #009999 }
+/* LiteralNumberBin */ .chroma .mb { color: #009999 }
+/* LiteralNumberFloat */ .chroma .mf { color: #009999 }
+/* LiteralNumberHex */ .chroma .mh { color: #009999 }
+/* LiteralNumberInteger */ .chroma .mi { color: #009999 }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #009999 }
+/* LiteralNumberOct */ .chroma .mo { color: #009999 }
+/* Operator */ .chroma .o { color: #000000; font-weight: bold }
+/* OperatorWord */ .chroma .ow { color: #000000; font-weight: bold }
+/* Punctuation */ .chroma .p {  }
+/* Comment */ .chroma .c { color: #999988; font-style: italic }
+/* CommentHashbang */ .chroma .ch { color: #999988; font-style: italic }
+/* CommentMultiline */ .chroma .cm { color: #999988; font-style: italic }
+/* CommentSingle */ .chroma .c1 { color: #999988; font-style: italic }
+/* CommentSpecial */ .chroma .cs { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreproc */ .chroma .cp { color: #999999; font-weight: bold; font-style: italic }
+/* CommentPreprocFile */ .chroma .cpf { color: #999999; font-weight: bold; font-style: italic }
+/* Generic */ .chroma .g {  }
+/* GenericDeleted */ .chroma .gd { color: #000000; background-color: #ffdddd }
+/* GenericEmph */ .chroma .ge { color: #000000; font-style: italic }
+/* GenericError */ .chroma .gr { color: #aa0000 }
+/* GenericHeading */ .chroma .gh { color: #999999 }
+/* GenericInserted */ .chroma .gi { color: #000000; background-color: #ddffdd }
+/* GenericOutput */ .chroma .go { color: #888888 }
+/* GenericPrompt */ .chroma .gp { color: #555555 }
+/* GenericStrong */ .chroma .gs { font-weight: bold }
+/* GenericSubheading */ .chroma .gu { color: #aaaaaa }
+/* GenericTraceback */ .chroma .gt { color: #aa0000 }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline }
+/* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+
+
+@media (prefers-reduced-motion: reduce) {
+    .paige-header-link {
+        transition: none;
+    }
+}
+
+
+
+
+</style>
+
+
+    
+</head>
+
+    <body>
+
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3" id="paige-site">
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <header id="paige-site-header">
+        
+
+        
+
+        
+
+        
+            
+                
+
+                
+                    
+                
+                    
+                
+
+                
+
+                <nav aria-label="Menu" class="paige-row-wide" id="paige-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+			    
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/1what/" >What?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/2why/" >Why?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  aria-current="page"  class=" active  fw-bold text-body-emphasis   nav-link  text-decoration-underline " href="/3how/" >How?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/4howto/" >How To?</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/5download/" >Download</a>
+                            </li>
+                           
+			
+			    
+                               
+                               
+                               
+                               
+                               
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/6support/" >Support</a>
+                            </li>
+                           
+			
+                    </ul>
+                </nav>
+            
+        
+
+        
+            <nav aria-label="Breadcrumbs" class="paige-row-wide" id="paige-breadcrumbs">
+                <div class="d-flex justify-content-center">
+                    <ol class="breadcrumb mb-0">
+                        
+
+                        
+
+                        
+                            
+
+                            
+
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        
+                    </ol>
+                </div>
+            </nav>
+        
+
+        
+    </header>
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+        
+    
+
+
+
+
+<article class="paige-kind-section paige-published" id="paige-page">
+    <div class="align-items-center d-flex flex-column">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header class="mw-100" id="paige-page-header">
+        <div class="align-items-center d-flex flex-column">
+            
+
+            
+                <h1 class="fw-bold" id="paige-page-title">How?</h1>
+            
+
+            
+
+            
+
+            
+
+            
+                <div class="paige-row-wide" id="paige-toc">
+                    <div class="border pe-3 ps-3 pt-3 rounded">
+                        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#explain-like-im-5-years-old">Explain Like I&rsquo;m 5 years old</a></li>
+    <li><a href="#lossy-algorythm">Lossy algorythm</a></li>
+    <li><a href="#hints-and-recovery">Hints and recovery</a></li>
+    <li><a href="#why-stop-at-one">Why stop at one?</a></li>
+    <li><a href="#how-well-does-it-protect-my-seedphrase">How well does it protect my seedphrase?</a></li>
+    <li><a href="#how-would-someone-attack-it">How would someone attack it?</a></li>
+  </ul>
+</nav>
+                    </div>
+                </div>
+            
+
+            
+        </div>
+    </header>
+
+
+
+        
+            <main class="mw-100" id="paige-content"><p>So, how does it work you may ask?</p>
+<p>It&rsquo;s all in the documentation. The algorythm is very simple and can be dumbed-down so much that anybody with the slightest knowledge of programming can build the whole thing back from scratch in any language since it has no specificities what-so-ever. So, let&rsquo;s dumb-it-down.</p>
+<h2 id="explain-like-im-5-years-old">Explain Like I&rsquo;m 5 years old<a aria-label="Link to this section" class="paige-header-link" href="#explain-like-im-5-years-old"></a></h2>
+<p>In order to obfuscate your seedphrase, we use the mnemonic (the dictionary of words your seedphrase comes from) and we switch the position of the words in the mnemonic. To do so, we take the index of the word in the mnemonic (its position in the dictionary) and add a certain number to it, giving us a different word. When desobfuscating, we subtract this same number to the position of the obfuscated word in the same dictionary.</p>
+<p>The numbers we add or subtract comes from a password you define. Every character in your password has a position in the Unicode table (so it has an index, therefor a number uniquely characterizing it) and by processing the positions of every character through a function that makes extensive uses of modulo, which is a lossy operation (meaning we lose information so the operation can&rsquo;t be reversed), we gather a new position for every word of your seedphrase.</p>
+<h2 id="lossy-algorythm">Lossy algorythm<a aria-label="Link to this section" class="paige-header-link" href="#lossy-algorythm"></a></h2>
+<p>In order to properly obfuscate your seedphrase, we are not just offsetting it globally, meaning we would shift every indexes by a single value. We are in fact generating a specific value for each word and this value is not only corelated to the characters in your password but also to their positions in the password. Because of that, a single character change in the password results in a totally different obfuscation. This lossyness means we can even disclose several characters in the password, it doesn&rsquo;t give an edge to the attacker because it is not directly corelated to one position of one word in your seedphrase.</p>
+<h2 id="hints-and-recovery">Hints and recovery<a aria-label="Link to this section" class="paige-header-link" href="#hints-and-recovery"></a></h2>
+<p>Because of this previously mentioned lossyness, you can - and should - give your future self hints on the password protecting your seedphrase. If you set a password &ldquo;abcdefgh&rdquo;, you can use &ldquo;<strong><strong>e</strong></strong>***********&rdquo; as a hint (never give away the total length of your password) and you still have a heavily protected obfuscated seedphrase. The knowledge of the letter in the 5th position doesn&rsquo;t give you the index-shifting of the fifth word in your seedphrase. It is corelated in such a way that you can&rsquo;t do anything with this information than just trying to bruteforce every other possible character in the password.</p>
+<h2 id="why-stop-at-one">Why stop at one?<a aria-label="Link to this section" class="paige-header-link" href="#why-stop-at-one"></a></h2>
+<p>The real magic happens when you add more than one password to your obfuscation. ObfusKey is designed to re-obfuscate the output of an obfuscation with the next password. This means if you set three passwords, an attacker can&rsquo;t access the &ldquo;in-between&rdquo; obfuscations. In order to brute-force a multiple password obfuscation, an attacker will have to try breaking ALL the obfuscations AT THE SAME TIME. And because of this very simple but clever trait, this method of protecting your seedphrase becomes virtually unbreakable when using more than one password since even if all your passwords are known and can be found in a password listing, an attacker will have to try every possible combination of passwords at the same time and for every outcome, try to open the wallet and see if it is the one they are looking for.</p>
+<p>The mathematics of it are all described clearly in the documentation but to make it simple:
+an attacker will waste far less resources (and therefore money) by trying to randomly generate seedphrases then by actually trying to break a multiple password obfuscation.</p>
+<h2 id="how-well-does-it-protect-my-seedphrase">How well does it protect my seedphrase?<a aria-label="Link to this section" class="paige-header-link" href="#how-well-does-it-protect-my-seedphrase"></a></h2>
+<p>We are going to talk about probabilities in a very simple manner here using the Bitcoin blockchain for the example. First, let&rsquo;s acknowledge the fact that if you have a bitcoin seedphrase, nothing stops anyone from opening your wallet by simply be lucky enough to enter the words of your seedphrase in the right order. Because of the very big number of possible bitcoin private keys (i.e wallets, i.e valid seedphrases), it is very much unlikely but not impossible. This is the base of the security of the network and by using it you just have to accept this fact. This number of possible bitcoin private keys is very big, roughly 1.46x10⁴⁸. Let&rsquo;s consider this number as &ldquo;pretty big&rdquo; since we accept it to secure our wallets by making it very improbable for anyone to open our wallet.</p>
+<p>Now, if you are using ObfusKey, you have to set one or more (but preferably more) passwords that can be of virtually any length and use any of the Unicode characters. The Unicode table consists of 155,063 characters but for the sake of argument let&rsquo;s say we are using A-Z, a-z, 0-9 and 10 non-alphranumeric characters -_.:,?1+=@. If we are using a 24 characters password, there are 3.77x10⁴⁴ possibilities for this password. But as said before, we don&rsquo;t stop at one, let&rsquo;s add two more passwords. Because you can&rsquo;t break the passwords one by one to break ObfusKey, you need to find the three correct passwords at the same time, meaning you are now dealing with 5.4x10¹³³. If we considered earlier that 1.46x10⁴⁸ was already a very big number, then this one is truely gigantic. This means actually brute-forcing a propery obfuscated seedphrase has dramatically less chances of success over simply trying to generate random seedphrases and try opening ny wallet instead.</p>
+<p>Of course, in the end, it all comes down to crafting yourself a set of unique, very private passwords because using basic &ldquo;abcdefg&rdquo; and giving out a couple of characters as hints will help attackers breaking it very easily which defies the whole purpose.</p>
+<h2 id="how-would-someone-attack-it">How would someone attack it?<a aria-label="Link to this section" class="paige-header-link" href="#how-would-someone-attack-it"></a></h2>
+<p>In order to understand how it works, let&rsquo;s see how someone would go about attacking an obfuscated seedphrase. Let&rsquo;s say someone found your ObfusKey text output and sees that you have the following passwords:</p>
+
+
+
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>Passwords:
+</span></span><span style="display:flex;"><span>    1.: *****f************
+</span></span><span style="display:flex;"><span>    2.: ***l**************
+</span></span><span style="display:flex;"><span>    3.: ******w***********</span></span></code></pre></div></div>
+
+<p>The first thing they would probably do would be to look into a password listing and take all the passwords that have the known characters at their known position. This makes it pretty clear that you shouldn&rsquo;t give too many indications because the more known characters, the less potential words they have to try but also, not giving out characters towards the end of the passwords so they don&rsquo;t have indications of the minimum length of the password.</p>
+<p>Now, in this case, if your passwords were</p>
+
+
+
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>Passwords:
+</span></span><span style="display:flex;"><span>    1.: abcdefgh
+</span></span><span style="display:flex;"><span>    2.: ijklmnop
+</span></span><span style="display:flex;"><span>    3.: qrstuvw</span></span></code></pre></div></div>
+
+<p>The attacker would probably have found it pretty easily. But now, let&rsquo;s imagine you actually used something a lot more personal like</p>
+
+
+
+
+
+
+
+
+
+<div class="paige-code"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-plaintext" data-lang="plaintext"><span style="display:flex;"><span>Passwords:
+</span></span><span style="display:flex;"><span>    1.: Park-florida_1998
+</span></span><span style="display:flex;"><span>    2.: Cool-And-The-Gang
+</span></span><span style="display:flex;"><span>    3.: BLACK&amp;white_Australia-015429</span></span></code></pre></div></div>
+
+<p>Even though the passwords are composed of common words, the way they are put together is already a layer of difficulty for the brute-forcing but on top of that, the fact that only these three passwords tried at the same time will give back your desobfuscated seedphrase makes it immensly unlikely that anyone can brute force it.</p>
+<p>The strength of ObfusKey resides entirely in the passwords you are setting. How many are they, how long are they and how personal are they is what will make them impossible to brute-force.</p>
+<div style="text-align: center;">
+Now, let&rsquo;s see <a href="../4howto">how do you use ObfusKey</a>
+</div>
+
+</main>
+        
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+    </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <footer id="paige-site-footer">
+        
+
+        
+
+        
+
+        
+            <p class="paige-row-narrow text-center text-secondary" id="paige-credit"><!-- raw HTML omitted -->Paige Theme<!-- raw HTML omitted --></p>
+        
+
+        
+    </footer>
+
+
+
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-n1ZUm8O8DZ536jlYheCXcPnnlnnkY5qH7DR6HU&#43;gQ2s="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.9f56549bc3bc0d9e77ea395885e09770f9e79679e4639a87ec347a1d4fa0436b.js" ></script>
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+<noscript>JavaScript is required</noscript>
+
+
+        
+    </body>
+</html>
