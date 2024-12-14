@@ -1,5 +1,6 @@
 +++
 title = "3How?"
+description = "How does it work? How does ObfusKey secure your seed phrase?."
 +++
 
 So, how does it work you may ask?

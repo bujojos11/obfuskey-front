@@ -1,8 +1,9 @@
 +++
-title = '6Support'
+title = '6Support the project'
+description = "Want to support the project? Here is how."
 +++
 
-## Supporting the project
+## Donation
 
 If you have used ObfusKey or if you want to support the project, there is a very simple and crypto way of doing so, simply drop some satoshis or any other coins to the project's wallet. 
 

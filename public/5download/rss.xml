@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/5download/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/5download/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:1313/5download/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/5download/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -52,7 +52,7 @@
 
         
 
-        <description>Recent content</description>
+        <description>Downloading ObfusKey. Do you want to download the whole project or just an executable file?</description>
 
         
             <language>en-us</language>
@@ -60,7 +60,7 @@
 
         
 
-        <link>http://localhost:1313/5download/</link>
+        <link>//localhost:1313/5download/</link>
 
         
 

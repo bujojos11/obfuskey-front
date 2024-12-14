@@ -1,5 +1,6 @@
 +++
 title = "4How To?"
+description = "How to use ObfusKey? How to make it work and how to secure your seed phrase."
 +++
 
 ## How to use it?

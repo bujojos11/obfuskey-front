@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/4howto/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/4howto/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:1313/4howto/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/4howto/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -52,7 +52,7 @@
 
         
 
-        <description>Recent content</description>
+        <description>How to use ObfusKey? How to make it work and how to secure your seed phrase.</description>
 
         
             <language>en-us</language>
@@ -60,7 +60,7 @@
 
         
 
-        <link>http://localhost:1313/4howto/</link>
+        <link>//localhost:1313/4howto/</link>
 
         
 

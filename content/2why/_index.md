@@ -1,5 +1,6 @@
 +++
 title = "2Why?"
+description = "Why making ObfusKey? All the reasons why this software came to be."
 +++
 
 ## Why?

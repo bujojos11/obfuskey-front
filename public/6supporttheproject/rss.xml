@@ -36,7 +36,7 @@
             
 
             
-                <link href="//localhost:1313/2why/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/6supporttheproject/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="//localhost:1313/2why/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/6supporttheproject/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -52,7 +52,7 @@
 
         
 
-        <description>Why making ObfusKey? All the reasons why this software came to be.</description>
+        <description>Want to support the project? Here is how.</description>
 
         
             <language>en-us</language>
@@ -60,11 +60,11 @@
 
         
 
-        <link>//localhost:1313/2why/</link>
+        <link>//localhost:1313/6supporttheproject/</link>
 
         
 
-        <title>2Why? · 0ObfusKey</title>
+        <title>6Support the project · 0ObfusKey</title>
 
         
 

@@ -1,7 +1,8 @@
 +++
 title = "5Download"
+description = "Downloading ObfusKey. Do you want to download the whole project or just an executable file?"
 [paige.alert]
-message = "Don't forget to visit the \"Support\" page to help the project!"
+message = "Don't forget to visit the \"Support the Project\" page to help the project!"
 type = "primary"
 +++
 
@@ -40,4 +41,6 @@ b92338922440cd6dd6ed58d1987024502163d6666d7803d32b44fec88522bca6
 
 Because of the automated testing running when executing these files, you will have to keep the file structure with the mnemonic file's location in order to run the executables. Otherwise, they will crash.
 
-
+{{< paige/center >}}
+If you wish to show some gratitude and [support the project, it's here!](../6supporttheproject)
+{{< /paige/center >}}

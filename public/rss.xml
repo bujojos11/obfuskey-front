@@ -34,7 +34,7 @@
             
 
             
-                <link href="http://localhost:1313/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/" rel="self" type="text/html"/>
             
         
             
@@ -42,7 +42,7 @@
             
 
             
-                <link href="http://localhost:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -50,7 +50,7 @@
 
         
 
-        <description>A revolutionary, minimalistic, trustless and offline solution to safely store your seed-phrase.</description>
+        <description>A revolutionary, minimalistic, trustless and offline solution to safely store your cryptocurrency wallet seed phrase.</description>
 
         
             <language>en-us</language>
@@ -58,7 +58,7 @@
 
         
 
-        <link>http://localhost:1313/</link>
+        <link>//localhost:1313/</link>
 
         
 

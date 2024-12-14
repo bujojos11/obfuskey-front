@@ -2,6 +2,9 @@ languageCode = 'en-us'
 title = 'ObfusKey'
 theme = 'paige'
 
+[params]
+description = "Official website for ObfusKey, a free, open-source, offline, minimalistic and secure way to store your cryptocurrency wallet seedphrase"
+
 [params.paige]
 color_scheme = "light"
 credit = '<a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige">Paige Theme</a>'
@@ -14,6 +17,7 @@ credit = '<a class="link-secondary text-decoration-none" href="https://github.co
 
 [params.paige.page]
 disable_reading_time = true
+disable_description = true
 disable_alert = false
 credit = '<a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige">Paige Theme</a>'
 

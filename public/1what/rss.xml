@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/1what/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/1what/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:1313/1what/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/1what/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -52,7 +52,7 @@
 
         
 
-        <description>Recent content</description>
+        <description>What is ObfusKey? A clear description of what ObfusKey is.</description>
 
         
             <language>en-us</language>
@@ -60,7 +60,7 @@
 
         
 
-        <link>http://localhost:1313/1what/</link>
+        <link>//localhost:1313/1what/</link>
 
         
 
