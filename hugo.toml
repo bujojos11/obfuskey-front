@@ -1,4 +1,3 @@
-baseURL = 'https://www.obfuskey.io/'
 languageCode = 'en-us'
 title = 'ObfusKey'
 theme = 'paige'
