@@ -41,6 +41,14 @@ b92338922440cd6dd6ed58d1987024502163d6666d7803d32b44fec88522bca6
 
 Because of the automated testing running when executing these files, you will have to keep the file structure with the mnemonic file's location in order to run the executables. Otherwise, they will crash.
 
+## Direct zip-archive download
+
+If for any reason you feel comfortable to do so, you can download the executable-zip package from here. Keep in mind that if you do, you should still check the sha256 hashes but this time compare it to the one mentioned in the github repository since, as said before, this website and the repos are completely isolated from each other and therefore they should always be matching to insure no hack has happened.
+ 
+Anyhow, by clicking the link below you will download the executable package which contains the executable files for both Linux and Windows as well as the default mnemonic.
+
+[obfuskey_executables-main.zip](../obfuskey_executables-main.zip)
+
 {{< paige/center >}}
 If you wish to show some gratitude and [support the project, it's here!](../6supporttheproject)
 {{< /paige/center >}}

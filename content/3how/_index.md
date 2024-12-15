@@ -71,6 +71,12 @@ Even though the passwords are composed of common words, the way they are put tog
 
 The strength of ObfusKey resides entirely in the passwords you are setting. How many are they, how long are they and how personal are they is what will make them impossible to brute-force.
 
+## Overview of the code
+
+The code architecture is pretty straight forward. The "main.py" file is what you want to run. It comprehends the user-interface which calls the different modules present in the same directory. Each ".py" file has a very clear purpose related to its name. By reading all these "modules" codes you can easily understand how Obfuskey works.
+
+As said in the previous sections, you won't need any other files, any dependencies or files fetched from a repo or anywhere else online to run Obfuskey. The complete source-code is local and you don't need an internet connection to run it.
+
 {{< paige/center >}}
 Now, let's see [how do you use ObfusKey](../4howto)
 {{< /paige/center >}}

@@ -90,6 +90,8 @@
 
 
 
+    <link color="#0d6efd" href="/safari-pinned-tab.svg" rel="mask-icon">
+
 
 
     <link href="/site.webmanifest" rel="manifest">
@@ -607,6 +609,7 @@ table {
     <li><a href="#why-stop-at-one">Why stop at one?</a></li>
     <li><a href="#how-well-does-it-protect-my-seedphrase">How well does it protect my seedphrase?</a></li>
     <li><a href="#how-would-someone-attack-it">How would someone attack it?</a></li>
+    <li><a href="#overview-of-the-code">Overview of the code</a></li>
   </ul>
 </nav>
                     </div>
@@ -686,6 +689,9 @@ an attacker will waste far less resources (and therefore money) by trying to ran
 
 <p>Even though the passwords are composed of common words, the way they are put together is already a layer of difficulty for the brute-forcing but on top of that, the fact that only these three passwords tried at the same time will give back your desobfuscated seedphrase makes it immensly unlikely that anyone can brute force it.</p>
 <p>The strength of ObfusKey resides entirely in the passwords you are setting. How many are they, how long are they and how personal are they is what will make them impossible to brute-force.</p>
+<h2 id="overview-of-the-code">Overview of the code<a aria-label="Link to this section" class="paige-header-link" href="#overview-of-the-code"></a></h2>
+<p>The code architecture is pretty straight forward. The &ldquo;main.py&rdquo; file is what you want to run. It comprehends the user-interface which calls the different modules present in the same directory. Each &ldquo;.py&rdquo; file has a very clear purpose related to its name. By reading all these &ldquo;modules&rdquo; codes you can easily understand how Obfuskey works.</p>
+<p>As said in the previous sections, you won&rsquo;t need any other files, any dependencies or files fetched from a repo or anywhere else online to run Obfuskey. The complete source-code is local and you don&rsquo;t need an internet connection to run it.</p>
 <div style="text-align: center;">
 Now, let&rsquo;s see <a href="../4howto">how do you use ObfusKey</a>
 </div>
