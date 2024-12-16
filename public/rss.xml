@@ -34,7 +34,7 @@
             
 
             
-                <link href="//localhost:1313/" rel="self" type="text/html"/>
+                <link href="//lol.com:1313/" rel="self" type="text/html"/>
             
         
             
@@ -42,7 +42,7 @@
             
 
             
-                <link href="//localhost:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//lol.com:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -58,7 +58,7 @@
 
         
 
-        <link>//localhost:1313/</link>
+        <link>//lol.com:1313/</link>
 
         
 

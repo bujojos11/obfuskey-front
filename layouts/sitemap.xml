@@ -1,0 +1,12 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.obfuskey.io</loc>
+		<lastmod>2024-12-16</lastmod>
+	</url>
+	{{ range .Pages }}
+	<url>
+		<loc>https://www.obfuskey.io/{{ .Title }}</loc>
+	</url>
+	{{ end }}
+</urlset>

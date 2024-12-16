@@ -1,42 +1,44 @@
-<urlset>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>//localhost:1313/</loc>
+		<loc>https://www.obfuskey.io</loc>
+		<lastmod>2024-12-16</lastmod>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/0ObfusKey</loc>
+		<loc>https://www.obfuskey.io/0ObfusKey</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/1What?</loc>
+		<loc>https://www.obfuskey.io/1What?</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/2Why?</loc>
+		<loc>https://www.obfuskey.io/2Why?</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/3How?</loc>
+		<loc>https://www.obfuskey.io/3How?</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/4How To?</loc>
+		<loc>https://www.obfuskey.io/4How To?</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/5Download</loc>
+		<loc>https://www.obfuskey.io/5Download</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/6Support the project</loc>
+		<loc>https://www.obfuskey.io/6Support the project</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/Categories</loc>
+		<loc>https://www.obfuskey.io/Categories</loc>
 	</url>
 	
 	<url>
-		<loc>//localhost:1313/Tags</loc>
+		<loc>https://www.obfuskey.io/Tags</loc>
 	</url>
 	
 </urlset>
