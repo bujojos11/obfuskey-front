@@ -6,7 +6,7 @@
 	</url>
 	{{ range .Pages }}
 	<url>
-		<loc>https://www.obfuskey.io/{{ .Title }}</loc>
+		<loc>https://www.obfuskey.io/{{ replace .Title "?" "" | replaceRE " " "" | lower }}</loc>
 	</url>
 	{{ end }}
 </urlset>
