@@ -1,23 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>//localhost:1313/</loc>
-  </url><url>
-    <loc>//localhost:1313/1what/</loc>
-  </url><url>
-    <loc>//localhost:1313/2why/</loc>
-  </url><url>
-    <loc>//localhost:1313/3how/</loc>
-  </url><url>
-    <loc>//localhost:1313/4howto/</loc>
-  </url><url>
-    <loc>//localhost:1313/5download/</loc>
-  </url><url>
-    <loc>//localhost:1313/6supporttheproject/</loc>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
-  </url>
+<urlset>
+	<url>
+		<loc>//localhost:1313/</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/0ObfusKey</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/1What?</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/2Why?</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/3How?</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/4How To?</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/5Download</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/6Support the project</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/Categories</loc>
+	</url>
+	
+	<url>
+		<loc>//localhost:1313/Tags</loc>
+	</url>
+	
 </urlset>
