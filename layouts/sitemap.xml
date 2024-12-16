@@ -5,8 +5,11 @@
 		<lastmod>2024-12-16</lastmod>
 	</url>
 	{{ range .Pages }}
+	{{ $currentTitle := replace .Title "?" "" | replaceRE " " "" | lower }} 
+		{{ if (not (in (slice "0obfuskey" "categories" "tags") $currentTitle )) }}
 	<url>
-		<loc>https://www.obfuskey.io/{{ replace .Title "?" "" | replaceRE " " "" | lower }}</loc>
+		<loc>https://www.obfuskey.io/{{ $currentTitle }}</loc>
 	</url>
+		{{ end }}
 	{{ end }}
 </urlset>
