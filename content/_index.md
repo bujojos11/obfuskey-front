@@ -1,6 +1,6 @@
 +++
 title = "0ObfusKey"
-description = "A revolutionary, minimalistic, trustless and offline solution to safely store your cryptocurrency wallet seed phrase. You can finally protect your lightweight wallet (Metamask, Solflare etc) or add an extra layer to your passphrase protected wallet! Make your passphrase safer and offline by using ObfusKey!"
+description = "A revolutionary, minimalistic, trustless and offline solution to safely store your cryptocurrency wallet seed phrase. You can finally protect your lightweight wallet (Metamask, Solflare etc) or add an extra layer to your passphrase protected wallet! Make your passphrase safer and offline by using ObfusKey and finally become the proper Degen you have always dreamed to be!"
 +++
 
 {{<paige/gallery align="center">}}

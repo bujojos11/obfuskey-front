@@ -1,6 +1,6 @@
 +++
 title = "3How?"
-description = "How does it work? How does ObfusKey secure your seed phrase? How could somebody try to attack it and fail. This page will tell you all you need to know regarding the protection ObfusKey is offering."
+description = "How does it work? How does ObfusKey secure your seed phrase? How could somebody try to attack it and fail. This page will tell you all you need to know regarding the protection ObfusKey is offering and how even the degens can nowadays protect their funds without headaches."
 +++
 
 So, how does it work you may ask?
