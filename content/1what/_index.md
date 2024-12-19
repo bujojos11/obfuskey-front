@@ -1,6 +1,6 @@
 +++
 title = '1What?'
-description = 'What is ObfusKey? A clear description of what ObfusKey is.'
+description = "What is Obfuskey? What is its purpose? What language is it written in? You will find all these information here."
 +++
 
 {{<paige/gallery align="center">}}

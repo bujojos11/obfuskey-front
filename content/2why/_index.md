@@ -1,6 +1,6 @@
 +++
 title = "2Why?"
-description = "Why making ObfusKey? All the reasons why this software came to be."
+description = "Why do you need ObfusKey? Why was it made? This page explains the problems that ObfusKey solves by clearing the traditional hurdles about protecting your seedphrase from anyone accessing it or having it only in one place which can be a bigger problem than a solution regarding securing and ensuring your seedphrase will always be recoverable."
 +++
 
 ## Why?

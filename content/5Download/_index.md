@@ -1,6 +1,6 @@
 +++
 title = "5Download"
-description = "Downloading ObfusKey. Do you want to download the whole project or just an executable file?"
+description = "Downloading ObfusKey. Here you will find all the different ways of safely downloading ObfusKey depending on your technical knowledge and willingness to read the source-code. You can choose to download the whole source code or just a zip file with all executable files."
 [paige.alert]
 message = "Don't forget to visit the \"Support the Project\" page to help the project!"
 type = "primary"

@@ -1,6 +1,6 @@
 +++
 title = '6Support the project'
-description = "Want to support the project? Here is how."
+description = "Want to support the project? Here is how you can help the project continuing and tip the project's wallets on several cryptocurrencies."
 +++
 
 ## Donation

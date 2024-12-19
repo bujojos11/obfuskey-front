@@ -1,6 +1,6 @@
 +++
 title = "3How?"
-description = "How does it work? How does ObfusKey secure your seed phrase?."
+description = "How does it work? How does ObfusKey secure your seed phrase? How could somebody try to attack it and fail. This page will tell you all you need to know regarding the protection ObfusKey is offering."
 +++
 
 So, how does it work you may ask?
@@ -19,7 +19,15 @@ In order to properly obfuscate your seedphrase, we are not just offsetting it gl
 
 ## Hints and recovery
 
-Because of this previously mentioned lossyness, you can - and should - give your future self hints on the password protecting your seedphrase. If you set a password "abcdefgh", you can use "****e***************" as a hint (never give away the total length of your password) and you still have a heavily protected obfuscated seedphrase. The knowledge of the letter in the 5th position doesn't give you the index-shifting of the fifth word in your seedphrase. It is corelated in such a way that you can't do anything with this information than just trying to bruteforce every other possible character in the password.
+After obfuscation, you are left with an inert seedphrase that doesn't link to your wallet anymore without the passwords. The recommended way for storing these passwords is to keep them with the obfuscated seedphrase but leaving only a couple (ideally one or two) characters visible and then hints regarding their content that only the creator of the password can understand. The default way of storing the seedphrase looks like the following:
+
+{{<paige/gallery align="center">}}
+{{< paige/image alt="Text file resulting from an obfuscation after modifications with hints" src="obfuscation_example.png" >}}
+{{</paige/gallery>}}
+
+Because of this previously mentioned lossyness, having a couple of letters showing is perfectly safe and don't give you the value by which the word at this position was obfuscated. As you will see below it can be giving too many informations if your password was used in any other service that has been compromised but as long as you make it unique and personal, the risk is minimum. One thing is that you should never give any indication on the total length of your password(s) so giving only characters in the beginning of the password(s) is highly recommended.
+
+On top of the couple of letters that you should give yourself as hint, proper sentences hinting at what is the content of your password that only you would understand is what will keep your obfuscation solid. Just be clever and talk to your future self. 
 
 ## Why stop at one?
 

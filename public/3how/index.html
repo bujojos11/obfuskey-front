@@ -631,7 +631,142 @@ table {
 <h2 id="lossy-algorythm">Lossy algorythm<a aria-label="Link to this section" class="paige-header-link" href="#lossy-algorythm"></a></h2>
 <p>In order to properly obfuscate your seedphrase, we are not just offsetting it globally, meaning we would shift every indexes by a single value. We are in fact generating a specific value for each word and this value is not only corelated to the characters in your password but also to their positions in the password. Because of that, a single character change in the password results in a totally different obfuscation. This lossyness means we can even disclose several characters in the password, it doesn&rsquo;t give an edge to the attacker because it is not directly corelated to one position of one word in your seedphrase.</p>
 <h2 id="hints-and-recovery">Hints and recovery<a aria-label="Link to this section" class="paige-header-link" href="#hints-and-recovery"></a></h2>
-<p>Because of this previously mentioned lossyness, you can - and should - give your future self hints on the password protecting your seedphrase. If you set a password &ldquo;abcdefgh&rdquo;, you can use &ldquo;<strong><strong>e</strong></strong>***********&rdquo; as a hint (never give away the total length of your password) and you still have a heavily protected obfuscated seedphrase. The knowledge of the letter in the 5th position doesn&rsquo;t give you the index-shifting of the fifth word in your seedphrase. It is corelated in such a way that you can&rsquo;t do anything with this information than just trying to bruteforce every other possible character in the password.</p>
+<p>After obfuscation, you are left with an inert seedphrase that doesn&rsquo;t link to your wallet anymore without the passwords. The recommended way for storing these passwords is to keep them with the obfuscated seedphrase but leaving only a couple (ideally one or two) characters visible and then hints regarding their content that only the creator of the password can understand. The default way of storing the seedphrase looks like the following:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="paige-gallery">
+
+<div class="align-items-center column-gap-3 d-flex flex-wrap justify-content-center row-gap-3">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="paige-image">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img  alt="Text file resulting from an obfuscation after modifications with hints"   class="img-fluid "  crossorigin="anonymous"    referrerpolicy="no-referrer"  src="//lol.com:1313/obfuscation_example.png"    >
+
+
+</div>
+
+</div>
+
+</div>
+
+<p>Because of this previously mentioned lossyness, having a couple of letters showing is perfectly safe and don&rsquo;t give you the value by which the word at this position was obfuscated. As you will see below it can be giving too many informations if your password was used in any other service that has been compromised but as long as you make it unique and personal, the risk is minimum. One thing is that you should never give any indication on the total length of your password(s) so giving only characters in the beginning of the password(s) is highly recommended.</p>
+<p>On top of the couple of letters that you should give yourself as hint, proper sentences hinting at what is the content of your password that only you would understand is what will keep your obfuscation solid. Just be clever and talk to your future self.</p>
 <h2 id="why-stop-at-one">Why stop at one?<a aria-label="Link to this section" class="paige-header-link" href="#why-stop-at-one"></a></h2>
 <p>The real magic happens when you add more than one password to your obfuscation. ObfusKey is designed to re-obfuscate the output of an obfuscation with the next password. This means if you set three passwords, an attacker can&rsquo;t access the &ldquo;in-between&rdquo; obfuscations. In order to brute-force a multiple password obfuscation, an attacker will have to try breaking ALL the obfuscations AT THE SAME TIME. And because of this very simple but clever trait, this method of protecting your seedphrase becomes virtually unbreakable when using more than one password since even if all your passwords are known and can be found in a password listing, an attacker will have to try every possible combination of passwords at the same time and for every outcome, try to open the wallet and see if it is the one they are looking for.</p>
 <p>The mathematics of it are all described clearly in the documentation but to make it simple:
