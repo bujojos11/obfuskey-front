@@ -28,7 +28,7 @@ There are no limitations in the number of passwords, their length or the charact
 
 The obfuscation is not reversible without these passwords.
 
-Because of the algorythm, it is far more profitable for an attacker to randomly generate seed phrases than attempting to break the obfuscation.
+Because of the algorithm, it is far more profitable for an attacker to randomly generate seed phrases than attempting to break the obfuscation.
 
 The output is a text file that you can store online or print, both are equally as safe because the obfuscated seed phrase is inherently safe and inert.
 

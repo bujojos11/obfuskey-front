@@ -5,7 +5,7 @@ description = "How does it work? How does ObfusKey secure your seed phrase? How 
 
 So, how does it work you may ask?
 
-It's all in the documentation. The algorythm is very simple and can be dumbed-down so much that anybody with the slightest knowledge of programming can build the whole thing back from scratch in any language since it has no specificities what-so-ever. So, let's dumb-it-down.
+It's all in the documentation. The algorithm is very simple and can be dumbed-down so much that anybody with the slightest knowledge of programming can build the whole thing back from scratch in any language since it has no specificities what-so-ever. So, let's dumb-it-down.
 
 ## Explain Like I'm 5 years old
 
@@ -13,7 +13,7 @@ In order to obfuscate your seedphrase, we use the mnemonic (the dictionary of wo
 
 The numbers we add or subtract comes from a password you define. Every character in your password has a position in the Unicode table (so it has an index, therefor a number uniquely characterizing it) and by processing the positions of every character through a function that makes extensive uses of modulo, which is a lossy operation (meaning we lose information so the operation can't be reversed), we gather a new position for every word of your seedphrase.
 
-## Lossy algorythm
+## Lossy algorithm
 
 In order to properly obfuscate your seedphrase, we are not just offsetting it globally, meaning we would shift every indexes by a single value. We are in fact generating a specific value for each word and this value is not only corelated to the characters in your password but also to their positions in the password. Because of that, a single character change in the password results in a totally different obfuscation. This lossyness means we can even disclose several characters in the password, it doesn't give an edge to the attacker because it is not directly corelated to one position of one word in your seedphrase. 
 
