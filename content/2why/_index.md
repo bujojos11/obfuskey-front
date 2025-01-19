@@ -9,7 +9,7 @@ The point behind all this is to free yourself from the cold and impersonal yet v
 
 ## Why making ObfusKey?
 
-As soon as I started to use cryptocurrencies and therefore wallets, I got worried about seedphrase storage. At first I just wrote them down on a piece of paper and hid the paper away. I was using verious wallets like Metamask, Daedellus, Polkawallet, Electrum wallet, and right away the amount of papers I had to store started to become not only a logistical problem (where to put them, all in one place ? separated ? but then still need to know where they are and keep an eye on them etc..) but also a basic security problem that if anyone would find said papers, they would get access to my funds.
+As soon as I started to use cryptocurrencies and therefore wallets, I got worried about seedphrase storage. At first I just wrote them down on a piece of paper and hid the paper away. I was using various wallets like Metamask, Daedellus, Polkawallet, Electrum wallet, and right away the amount of papers I had to store started to become not only a logistical problem (where to put them, all in one place ? separated ? but then still need to know where they are and keep an eye on them etc..) but also a basic security problem that if anyone would find said papers, they would get access to my funds.
 
 It felt paradoxical that the only way to safely store it is on a piece of paper which can be:
 - found by anybody else than you, meaning loss of control over your wallet

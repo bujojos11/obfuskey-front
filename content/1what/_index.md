@@ -27,7 +27,7 @@ Python was chosen for its simplicity. On a very high-level, Python strips away a
 
 Python is, in a way, very similar to the spoken language. If written in a clean and verbose way, even somebody with the bare minimum knowledge in programming will be able to understand what is the code doing. This is very important for this project because you should never execute a software you are not sure what is it doing.
 
-## no external library
+## No external library
 
 In order to really keep control over the complete code and avoid attacks that would be aimed at a dependency to corrupt ObfusKey, everything was written from scratch. For this reason the user-interface is what it is - a not very modern command-line UI. If the aesthetics were paramount, a graphical user interface could have been used but the main priority is security. By writing everything from scratch and keeping it simple, it is easier for anybody to read the intirety of the source code and the project is not at risk of somebody inserting malicious code in an external library the project would be using.
 
