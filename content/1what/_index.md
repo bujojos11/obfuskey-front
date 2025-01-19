@@ -15,6 +15,8 @@ ObfusKey is a revolutionary way of securing your cryptocurrency wallet's seedphr
 
 ObfusKey is an open-source, very small piece of software that can be executed on most of the operating-systems (using ready-made executables) or on any machine where Python 3.11 is installed. It is fully offline and doesn't require any installation. If you decide to run the executable file you won't even need to install Python. It is not using any external library or dependencies and won't require anything outside of its own source code available in the github repo. 
 
+If you wish to take a look at the complete documentation, please visit the [documentation page in the github repository](https://github.com/bujojo16/obfuskey/blob/master/Documentation/obfuskey.md)
+
 ## Open-source
 
 Because you should never enter your seedphrase in a software that you can't trust and a big part of this trust is based on the source code being available for anybody to read.

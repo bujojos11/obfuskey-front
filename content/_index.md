@@ -18,6 +18,8 @@ In roughly 20 minutes of browsing the categories in their natural order (What, W
 So, let's get started: [What is ObfusKey?](../1what)   
 {{< /paige/center >}}
 
+If you wish to take a look at the documentation, which covers all the aspects and the mathematics in details, please go to the [documentation of the project](https://github.com/bujojo16/obfuskey/blob/master/Documentation/obfuskey.md)
+
 ## TL;DR
 
 If you don't have 20 minutes to spare, here is the TL;DR:

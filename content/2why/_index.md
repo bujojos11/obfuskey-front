@@ -9,12 +9,13 @@ The point behind all this is to free yourself from the cold and impersonal yet v
 
 ## Why making ObfusKey?
 
-As soon as I started to use cryptocurrencies and therefore wallets, I got worried about seedphrase storage. At first I just wrote them down on a piece of paper and hid the paper away. I was using verious wallets like Metamask, Daedellus, Polkawallet, Electrum wallet, and not only the amount of papers I had to store started to become not only a logistical problem (where to put them, all in one place ? separated ? but then still need to know where they are and keep an eye on them etc..) but also a basic security problem that if anyone would find said papers, they would get access to my funds.
+As soon as I started to use cryptocurrencies and therefore wallets, I got worried about seedphrase storage. At first I just wrote them down on a piece of paper and hid the paper away. I was using verious wallets like Metamask, Daedellus, Polkawallet, Electrum wallet, and right away the amount of papers I had to store started to become not only a logistical problem (where to put them, all in one place ? separated ? but then still need to know where they are and keep an eye on them etc..) but also a basic security problem that if anyone would find said papers, they would get access to my funds.
 
 It felt paradoxical that the only way to safely store it is on a piece of paper which can be:
 - found by anybody else than you, meaning loss of control over your wallet
-- damaged/destroyed by environmental events (would it be fire, water, earthquake ...?)
-You can of course try to mitigate the second point by using a different media than paper, some might even use metal, but it doesn't help with the first point: if anyone else than you finds your media, they get your keys, your cryptos.
+- damaged/destroyed by environmental events (would it be fire, water, earthquake ...?)   
+You can of course try to mitigate the second point by using a different media than paper, some might even use metal, but it doesn't help with the first point:   
+*if anyone else than you finds your media, they get your keys, your cryptos.*
 
 While this is a major issue with lightweight wallets, of course, in the case of an HD-wallet you could/should protect it with a passphrase BUT this doesn't solve the storage of the seedphrase. You shouldn't keep it public just because you used a passphrase since this passphrase can be brute-force and will be a single point of failure.
 
@@ -31,10 +32,10 @@ If it is digital, it can be remotely:
 You can mitigate the first 3 by password protecting it but it won't help you if it is deleted. Also, if it is locally password-protected, it can be brute-forced. If it is remotely password protected (using 2FA and such) you can always get hacked/sim-swapped etc.
   
 ### 2. Digitality
-Because it is under the digital form, if anything happens you can't have a physical copy of it. You can't print a password-protected zip. I mean, you could print out every byte of the file but typing it back will be quite something. And if you print it out as plain text you are back to square one with a piece of paper that anyone can find and can be destroyed.
+Because it is under the digital form, if anything happens you can't have a physical copy of it. You can't print a password-protected zip-file. I mean, you could print out every byte of the file but typing it back will be quite something. And if you print it out as plain text you are back to square one with a piece of paper that anyone can find and can be destroyed.
   
 ### 3. Storage
-If you rely on a text file inside of a zip file stored on a cloud service, you have to trust the cloud service to be there for ever and never lose your file. This should be seen as a third-party trust-based storage.
+If you rely on a text file inside of a zip file stored on a cloud service, you have to trust the cloud service to be there forever and never lose your file. In a funny twisted way, the fact that you are relying on some service to safe-guard your password-protected private-key should be seen as a third-party trust-based storage. If you must trust that a service/server will be up in order to get access to your seedphrase, therefor you are not totally in control of your seedphrase.
   
 ### 4. Security
 Trying to break a password encryption is only a matter of computing power and can be performed fully offline. If the password is not found in usual password-listings, the attacker would have to run all possible character combinations. While it is not fast, the attacker will know they have broken the encryption because the text will be readable/the hash will match.
@@ -42,9 +43,9 @@ Trying to break a password encryption is only a matter of computing power and ca
 The main take-out is that to be perfectly safe you would need to have it both on a physical media AND under a digital form BUT without having to rely on any third party for the storage and protection of the file WHILE keeping the physical copy not readable.
 
 The obvious solution to this problem is obfuscation for the following reasons:
-- once obfuscated, it is useless unless you have the way to desobfuscate it so you can keep it digitally
+- once obfuscated, it is useless unless you have the way to desobfuscate it so you can keep it under the digital form
 - because it is an obfuscation within the mnemonic, it is still under the form of a seedphrase so it is easy to type, easy to print out so you can keep it physically
-- but because it is under the form of a mnemonic phrase, it also means you can't just brute-force it back because you won't know if you successfuly broke it. This will get clearer the further we go.
+- but because it is under the form of a mnemonic phrase, it also means you can't just brute-force it back because you won't know if you successfuly broke it because the desobfuscation will always output a seemigly valid seedphrase. This will get clearer the further we go.
 - if you use a passphrase-protected seedphrase, obfuscating your seedphrase makes it theoretically impossible to break without the password(s)
 
 
@@ -59,7 +60,7 @@ When trying to make something secure, the usual way is to use encryption. Encryp
 - an attacker knows when he broke the encryption by matching the hash or by turning the unreadable data into plain text.
 
 These two reasons are why, in this case, obfuscation is far superior:
-- When obfuscating plain text, the output is still plain text so you can easily manipulate this output to write it down on a piece of paper if that is what you choose to do. It does not force you into having your output under a digital form because you will have to copy/paste it in order to make use of it. Plain text data storage is far superior to  hashed data storage.
+- When obfuscating plain text, the output is still plain text so you can easily manipulate this output to write it down on a piece of paper if that is what you choose to do. It does not force you into having your output under a digital form because the digital form forces you to copy/paste it in order to make use of it. Plain text data storage is far superior to  hashed data storage.
 - When attempting to desobfucate, any input will give a seemingly correct output meaning you can't just compare two hashes, you actually have to perform a check on the data. In the case of seedphrases, you have to attempt to open a wallet and check the balance. Only then you can be sure if you do have the correct result.
 
 ## Why open-source it?
