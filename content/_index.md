@@ -1,6 +1,6 @@
 +++
 title = "0ObfusKey"
-description = "A revolutionary, minimalistic, trustless and offline solution to safely store your cryptocurrency wallet seed phrase. You can finally protect your lightweight wallet (Metamask, Solflare etc) or add an extra layer to your passphrase protected wallet! Make your passphrase safer and offline by using ObfusKey and finally become the proper Degen you have always dreamed to be!"
+description = "A revolutionary, minimalistic, trustless and offline solution to safely store your cryptocurrency wallet seed phrase. You can finally protect your lightweight wallet (Metamask, Phantom, Solflare etc) or add an extra layer to your passphrase protected wallet! Make your passphrase safer and offline by using ObfusKey and finally become the proper Degen you have always dreamed to be!"
 +++
 
 {{<paige/gallery align="center">}}
@@ -36,7 +36,7 @@ The output is a text file that you can store online or print, both are equally a
 
 To make it unbreakable, you have to tune-up the output by only disclosing a couple of characters per passwords and adding hints for each passwords that only you will understand.
 
-ObfusKey is the best way to secure your lightweight wallet like Metamask and other that don't support passphrases but it can also be used to add a layer of security to your passphrase protected wallet.
+ObfusKey is the best way to secure your lightweight wallet like Metamask, Phantom and other that don't support passphrases but it can also be used to add a layer of security to your passphrase protected wallet.
 
 Downloading it and executing it is very easy and it is designed to be run on safe OS like Tails Os.
 

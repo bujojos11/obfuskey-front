@@ -9,7 +9,7 @@ description = "What is Obfuskey? What is its purpose? What language is it writte
 
 ## What is ObfusKey?
 
-ObfusKey is a revolutionary way of securing your cryptocurrency wallet's seedphrase that offers a complete shift of paradigm. It allows you to keep your seedphrase safe in multiple places and under multiple form, digital or physical, without having to be worried of someone else than you accessing it. It is a completely free, open source, rudimentary, offline and trustless solution to a decade old problem. It works with any wallet type on any blockchain and it not only is best suited to secure lightweight wallets (Metamask and other non-HD wallets) but also helps adding another security layer on top of your HD wallet's passphrase, if you happen to have one. 
+ObfusKey is a revolutionary way of securing your cryptocurrency wallet's seedphrase that offers a complete shift of paradigm. It allows you to keep your seedphrase safe in multiple places and under multiple form, digital or physical, without having to be worried of someone else than you accessing it. It is a completely free, open source, rudimentary, offline and trustless solution to a decade old problem. It works with any wallet type on any blockchain and it not only is best suited to secure lightweight wallets (Metamask, Phantom and other non-HD wallets) but also helps adding another security layer on top of your HD wallet's passphrase, if you happen to have one. 
 
 ## What is it, concretely?
 
